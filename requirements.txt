@@ -1,6 +1,5 @@
 ### File: requirements.txt
 streamlit
-pickle
 torch
 torchvision
 pillow
