@@ -68,6 +68,13 @@ This is ~90% better than the baseline. <br/>
     - Crop Type
     - Soil Quality
 
+### 7. Model Deployment
+![Screenshot (137)](https://github.com/user-attachments/assets/b1bbab1b-cfe9-47ce-9e5e-826f86a97125)
+![Screenshot (138)](https://github.com/user-attachments/assets/b3e8052d-83d4-4a33-8331-bd758c85e09c)
+
+The trained Random Forest model was deployed using Streamlit, a lightweight Python framework for building interactive web applications. The app allows users to input environmental and soil parameters to receive real-time crop yield predictions and smart recommendations. It is hosted on Streamlit Cloud for easy access and scalability. <br/>
+🔗 [Access the App](https://crops-yield-prediction.streamlit.app/)
+
 ## How the Model Can Help
 - Accurate crop yield forecasts to plan storage, transportation, and sales.
 - Smart recommendations for nutrient management.
