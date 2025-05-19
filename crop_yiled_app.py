@@ -4,9 +4,7 @@ import numpy as np
 import os
 import gdown
 
-st.set_page_config(page_title="Smart Urban Farming", layout="centered")
-st.title("Smart Urban Farming AI System")
-st.title("Crop Yield Prediction")
+st.set_page_config(page_title="Smart Crop Yield Prediction AI System", layout="centered")
 
 # Google Drive file ID
 file_id = "1lDIpOAM4jLx7wbnBlB9360z98twaprvG"
