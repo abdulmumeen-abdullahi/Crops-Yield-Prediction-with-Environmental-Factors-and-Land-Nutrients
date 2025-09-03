@@ -42,7 +42,7 @@ Crops considered: Wheat, Sugarcane, Corn, Rice, Potato
    - Decision Tree Regressor
    - XGBoost Regressor
 
-- #### Performance Metrics (MAE, MSE, R2) <br/>
+- #### Performance Metrics - Mean ABsolute Error (MAE), Mean Squared Error (MSE), Coefficient of Determination (R²) <br/>
 | Model             | MAE   | R²    | MSE    |
 | ----------------- | ----- | ----- | ------ |
 | **Random Forest** | 2.41  | 0.975 | 17.22  |
@@ -58,11 +58,10 @@ Crops considered: Wheat, Sugarcane, Corn, Rice, Potato
 - #### Hyperparameter tuning using GridSearchCV further optimized the Random Forest model.
 
 ### 5. Best Model Results
-- R² Score: 98%
-- MSE: 17.22
-- MAE: 2.4 <br/>
+- R² : 0.98
+- MSE: 4.00
+- MAE: 2.33 <br/>
 This is ~90% better than the baseline. <br/>
-
 
 ### 6. Feature Importance - Top Predictive Features:
     - Temperature
